@@ -18,6 +18,14 @@ Given a positive integer N. You have to find Nth natural number after removing a
 ### Smallest Positive Integer that can not be represented as Sum
 Given an array of size N, find the smallest positive integer value that cannot be represented as sum of some elements from the array.
 
+### Is Prime
+Check if the given integer is prime number or not
+
+### Prime No. In Range
+Print all the prime no. from zero to n
+
+### All Possible Substring
+Print all possible substring of a give string
 
 <hr>
 
