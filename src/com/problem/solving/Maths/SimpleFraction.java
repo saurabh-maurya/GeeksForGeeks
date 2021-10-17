@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class SimpleFraction {
-    public String implement(int numerator, int denominator) {
+    static String simpleFrac(int numerator, int denominator) {
         if (numerator == 0)
             return "0";
         if (denominator == 0)
@@ -40,5 +40,9 @@ public class SimpleFraction {
             rem = (rem % denominator) * 10;
         }
         return result.toString();
+    }
+    public static void main(String[] args) {
+        int numerator = 50; int denominator = 22;
+        System.out.println(simpleFrac(numerator, denominator));
     }
 }

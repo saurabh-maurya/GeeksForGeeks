@@ -12,7 +12,7 @@ Example, Input --> [2, 0, 2]
 
 public class TappingRainWater {
 
-    public int implement(int[] wallStructure) {
+    static int rainWater(int[] wallStructure) {
         int arrLength = wallStructure.length;
         int waterStored = 0;
         for(int i =0; i< arrLength; i++) {
@@ -27,5 +27,10 @@ public class TappingRainWater {
             waterStored += Math.min(leftHeight, rightHeight) - wallStructure[i];
         }
         return waterStored;
+    }
+
+    public static void main(String[] args) {
+        int wallStructure[] = { 0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1 };
+        System.out.println(rainWater(wallStructure));
     }
 }
