@@ -1,4 +1,4 @@
-package com.problem.solving.Maths;
+package gfg.problem.Maths;
 
 public class MissingNumberInArray {
     static int missingNumber(int[] array, int n) {

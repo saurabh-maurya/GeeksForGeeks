@@ -1,7 +1,4 @@
-package com.problem.solving;
-
-import com.problem.solving.Array.TappingRainWater;
-import com.problem.solving.Maths.*;
+package gfg;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package com.problem.solving.Maths;
+package gfg.problem.Maths;
 
 public class PossibleSubstrings {
     static void allSubstring(String str) {

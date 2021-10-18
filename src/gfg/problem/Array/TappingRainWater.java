@@ -1,4 +1,4 @@
-package com.problem.solving.Array;
+package gfg.problem.Array;
 
 /*
 Given n non-negative integers representing an elevation map where the width of each bar is 1,

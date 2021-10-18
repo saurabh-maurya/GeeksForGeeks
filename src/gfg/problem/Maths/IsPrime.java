@@ -1,4 +1,4 @@
-package com.problem.solving.Maths;
+package gfg.problem.Maths;
 
 /*
 APPROACH -
